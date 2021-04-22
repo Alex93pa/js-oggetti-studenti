@@ -37,9 +37,9 @@ for (var i = 0; i < studenti.length; i++){
 //TERZO
 
 var studenteNuovo = {
-    nome: prompt("inserire un nome"),
-    cognome: prompt("inserire un cognome"),
-    eta: parseInt(prompt("inserire l'età"))
+    nome: prompt("inserire il nome del nuovo studente"),
+    cognome: prompt("inserire un cognome del nuovo studente"),
+    eta: parseInt(prompt("inserire l'età del nuovo studente"))
 }
 
 studenti.push(studenteNuovo);
